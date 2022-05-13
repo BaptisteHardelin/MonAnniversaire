@@ -1,0 +1,21 @@
+{
+  "name": "anniversairebaptiste",
+  "version": "1.0.0",
+  "description": "Site pour mon anniversaire",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "BabaProg",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.5.0"
+  }
+}
